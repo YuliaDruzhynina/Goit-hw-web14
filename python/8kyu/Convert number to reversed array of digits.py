@@ -6,6 +6,6 @@
 # 0 => [0]
 
 def digitize(n):
-    n = 35231
+
     lst = [int(lst) for lst in str(n)]
     return lst[::-1] 
