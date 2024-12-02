@@ -9,3 +9,7 @@ def digitize(n):
 
     lst = [int(lst) for lst in str(n)]
     return lst[::-1] 
+
+def digitize(n):
+    return list(map(int, str(n)[::-1]))
+
