@@ -1,11 +1,14 @@
 # Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
-# Example(Input => Output):
+Example(Input => Output):
 
-# 35231 => [1,3,2,5,3]
-# 0 => [0]
+ 35231 => [1,3,2,5,3]
+ 0 => [0]
+---
 
+```py
 def digitize(n):
     n = 35231
     lst = [int(lst) for lst in str(n)]
-    return lst[::-1] 
+    return lst[::-1]
+```
