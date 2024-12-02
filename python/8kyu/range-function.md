@@ -7,6 +7,7 @@ b = 4
 --> [1, 2, 3, 4]
 ---
 ```py
-def get_age(age):
-    return int(age[0])
+def between(a,b):
+    ab = range(a,b+1)
+    return list(ab)
 ```
