@@ -6,7 +6,7 @@ Output :: "Position of alphabet: 1"
 
 Note: Only lowercased English letters are tested
 
-```
+```py
 def position_in_alphabet(letter):
     # Получаем позицию буквы в алфавите (1 для 'a', 2 для 'b' и т.д.)
     return f"Position of alphabet: {ord(letter) - ord('a') + 1}"
