@@ -21,5 +21,8 @@ def count_sheeps(sheep):
         return 0  # Возвращаем 0, если список не задан
   number = sheep.count(True)
     return number
-print(count_sheeps(None))  # Выведет: 17
+
+print(count_sheeps(None))
+print(count_sheeps([True, True, False, True, False]))  # Выведет: 3
+
 ```
