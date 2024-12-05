@@ -27,4 +27,8 @@ print(my_set)  # Выведет: {1, 2, 3, 4, 5, 6} (3 не добавится, 
 my_list = [1, 2, 3, 2, 1]
 my_set_from_list = set(my_list)
 print(my_set_from_list)  # Выведет: {1, 2, 3}
+
+word = "hello"
+set_word = set(word)  # {'h', 'e', 'l', 'o'}
+print(set_word)  # {'h', 'e', 'l', 'o'} - множества не содержат повторов
 ```
