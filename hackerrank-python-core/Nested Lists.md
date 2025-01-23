@@ -29,4 +29,29 @@ if __name__ == '__main__':
 
     for student in second_lowest_students:
         print(student)
+
+
+Другій варіант з максімальною оцінкою
+
+if __name__ == '__main__':
+    students = [
+        {"name": "John", "score": 85},
+        {"name": "Emma", "score": 92},
+        {"name": "Sophia", "score": 91},
+        {"name": "Lucas", "score": 92},
+        {"name": "Oliver", "score": 89}
+    ]
+    
+    # find max score
+    highest_score = max(student["score"] for student in students)
+    
+    # gather students with max score
+    highest_students = [student["name"] for student in students if student["score"] == highest_score]
+    
+    # srted in alphabetic order
+    highest_students.sort()
+    
+    # printed name of students
+    for student in highest_students:
+        print(student)
 ```
