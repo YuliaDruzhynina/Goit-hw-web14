@@ -11,15 +11,14 @@ Sample Output 0
 
 ---
 ```py
+
 import re
+regex_pattern = r"[.,]"	# Do not delete 'r'.
+print("\n".join(re.split(regex_pattern, input())))
 
-
-string_input = input()
-
-regex_pattern = r"[.,]"
-result = re.split(regex_pattern, string_input)
-for num in result:
-    print(num)
-
-#print("\n".join(re.split(regex_pattern, input())))
+#string_input = input()
+#regex_pattern = r"[.,]"
+#result = re.split(regex_pattern, string_input)
+#for num in result:
+    #print(num)
 ```
